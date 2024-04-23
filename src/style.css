@@ -1,10 +1,14 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/076/original/clouds.jpg?1713866610");
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #885df1;
+  color:#4e80bb;
+}
+
+a:hover {
+  color:#004aaa;
 }
 
 .weather-app {
@@ -14,6 +18,7 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
+  opacity: 90%;
 }
 
 header {
@@ -31,13 +36,18 @@ header {
 }
 
 .search-form-button {
-  background: #885df1;
+  background:#135ec1;
   font-size: 16px;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
   margin-left: 5px;
   color: white;
+}
+
+.search-form-button:hover {
+   opacity: 0.8;
+   cursor: pointer;
 }
 
 main {
@@ -63,7 +73,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color:#135ec1 ;
 }
 
 .weather-app-temperature-container {
@@ -103,14 +113,13 @@ main {
 .weather-forecast-icon {
   width: 88px;
   height: 88px;
- display: block;
- margin: 0 auto;
-
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color:#135ec1;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -125,5 +134,5 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba (0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
